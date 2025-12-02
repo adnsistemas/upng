@@ -4,7 +4,7 @@
   <br />
 
   <!-- NPM Version -->
-  <a href="https://www.npmjs.com/package/@pdf-lib/upng">
+  <a href="https://www.npmjs.com/package/@adnsistemas/upng">
     <img
       src="https://img.shields.io/npm/v/png-ts.svg?style=flat-square"
       alt="NPM Version"
@@ -14,12 +14,13 @@
 
 > A small, fast and advanced PNG / APNG encoder and decoder
 
-This project is a fork of [`UPNG.js`](https://github.com/photopea/UPNG.js) and was created for use in [`pdf-lib`](https://github.com/Hopding/pdf-lib). The maintainer of the original repo does not publish it to NPM. That is the primary purpose of this fork. In addition, an `index.d.ts` file has been added (copied directly from [`@types/upng-js`](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/upng-js/index.d.ts)) to makes TypeScript definitions available without requiring additional packages to be installed.
+This project is a fork of [`UPNG.js`](https://github.com/photopea/UPNG.js) and was created for use in [`@adnsistemas/pdf-lib`](https://github.com/adnsistemas/pdf-lib). The maintainer of the original repo does not publish it to NPM. That is the primary purpose of this fork. In addition, an `index.d.ts` file has been added (copied directly from [`@types/upng-js`](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/upng-js/index.d.ts)) to makes TypeScript definitions available without requiring additional packages to be installed.  
+The original package [`@pdf-lib/upng`](https://github.com/Hopdig/upng) was modified to be able to use it in ESM and CommonJS projects.
 
 ## Example of `UPNG.toRGBA8`
 ```javascript
 // Import the UPNG class
-import UPNG from '@pdf-lib/upng';
+import UPNG from '@adnsistemas/upng';
 
 // Create a UPNG object
 const pngImage = UPNG.decode(/* Uint8Array containing bytes of PNG image */);
@@ -33,10 +34,10 @@ const pixels = pngImage.UPNG.toRGBA8();
 To install the latest stable version:
 ```bash
 # With npm
-npm install --save @pdf-lib/upng
+npm install --save @adnsistemas/upng
 
 # With yarn
-yarn add @pdf-lib/upng
+yarn add @adnsistemas/upng
 ```
 This assumes you're using [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/lang/en/) as your package manager.
 
