@@ -1,7 +1,7 @@
 {
   "name": "@adnsistemas/upng",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small, fast and advanced PNG / APNG encoder and decoder",
   "main": "cjs/UPNG.js",
   "unpkg": "dist/UPNG.min.js",
