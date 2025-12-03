@@ -1108,8 +1108,10 @@ UPNG.encode.dither = function(sb, w, h, plte, tb, oind) {
 }
 
 export default UPNG;
-if (exports && exports.default) {
-  module.exports = exports.default;
-} else {
-  module.exports = exports;
+if (typeof module !== 'undefined') {
+	if (exports && exports.default) {
+		module.exports = exports.default;
+	} else if (exports) {
+		module.exports = exports;
+	}
 }

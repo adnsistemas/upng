@@ -6,7 +6,7 @@
   <!-- NPM Version -->
   <a href="https://www.npmjs.com/package/@adnsistemas/upng">
     <img
-      src="https://img.shields.io/npm/v/png-ts.svg?style=flat-square"
+      src="https://img.shields.io/npm/v/@adnsistemas/upng.svg?style=flat-square"
       alt="NPM Version"
     />
   </a>
